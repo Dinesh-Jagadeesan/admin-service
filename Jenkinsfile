@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                mvn clean install
-                echo Building done
+                D:\\apache-maven-3.9.1-bin\\apache-maven-3.9.1\\bin\\mvn clean install
+                echo 'Building done'
             }
         }
     }
